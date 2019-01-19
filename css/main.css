@@ -1,0 +1,163 @@
+@font-face{
+  font-family:arual;
+  src:url('../text_designs/arual.ttf') format('opentype');
+}
+
+/***base styles for AKI Portfolio website :) ***/
+
+body{
+ font-family:'Kalam', cursive;
+ color:black;
+}
+
+#work,#about,#contact {
+  height:850px;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width{
+    width:600px;
+    float:left;
+}
+
+/***header***/
+header {
+  height:800px;
+  background:url('../img/wall_paint.png');
+  background-size: cover;
+}
+
+header h1{
+  font-size:60px;
+  color:#ffffff;
+  padding: 65px 0 65px 25px;
+}
+
+nav {
+    float:left;
+    padding: 75px 10px;
+}
+nav ul li{
+    display:inline-block;
+}
+nav ul li a {
+    text-transform:uppercase;
+    text-decoration:none;
+    font-size:24px;
+    color:#ffffff;
+    padding-left: 80px;
+}
+
+/****work***/
+#work{
+  color: #0d0d0c;
+  background:url('../img/chair.png');
+  background-size: cover;
+}
+
+#work .full-width{
+    padding:10px;
+    text-align:center;
+    font-size:34px;
+}
+
+#work .half-width{
+    text-align:left;
+}
+
+#work h2{
+  font-size:28px;
+  width:600px;
+  margin: 0 auto;
+}
+
+#work p{
+  font-size:20px;
+  line-height:28px;
+  width:600px;
+  font-family: 'Crimson Text', serif;
+}
+
+#work img {
+  width:550px;
+  height:350px;
+}
+
+/***about***/
+#about .full-width{
+  padding:80px 0;
+}
+
+#about h3{
+  font-size:36px;
+  padding-left:50px;
+}
+
+#about p{
+  font-size:26px;
+  padding-left:50px;
+  font-family: 'Crimson Text', serif;
+}
+
+#about p span{
+  font-family:'arual';
+  font-size:28px;
+}
+
+#about img{
+  height:700px;
+  width:600px;
+  padding: 0 50px;
+}
+
+/***contact***/
+#contact{
+  background:url('../img/phone.png');
+  background-size:cover;
+}
+
+#contact .full-width{
+  padding:80px 0;
+}
+
+#contact .half-width{
+    text-align:left;
+}
+
+#contact h3{
+  font-size:36px;
+  padding-left:50px;
+}
+
+#contact h4{
+  font-size:22px;
+  padding-left:50px;
+  font-family: 'Crimson Text', serif;
+}
+
+#contact ul li{
+    display:inline-block;
+    float:left;
+    padding: 75px 10px;
+}
+
+#contact ul li a {
+    text-transform:uppercase;
+    text-decoration:none;
+    font-size:24px;
+    color:#ffffff;
+    padding-left: 80px;
+}
+
+/***footer***/
+footer{
+  height:35px;
+  text-align:center;
+  font-size:20px;
+  margin:0 auto;
+  font-family:'arual';
+}
