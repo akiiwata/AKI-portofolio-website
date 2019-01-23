@@ -26,8 +26,8 @@ body{
 
 /***header***/
 header {
-  height:800px;
-  background:url('../img/wall_paint.png');
+  height:850px;
+  background:url('../img/wall_paint2.png');
   background-size: cover;
 }
 
@@ -55,7 +55,7 @@ nav ul li a {
 /****work***/
 #work{
   color: #0d0d0c;
-  background:url('../img/chair.png');
+  background:url('../img/black_white.png');
   background-size: cover;
 }
 
